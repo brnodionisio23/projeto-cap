@@ -12,6 +12,9 @@ body {
 a,
 a:hover,
 a:visited {
-    color: unset;
     text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
