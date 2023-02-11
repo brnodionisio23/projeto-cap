@@ -1,0 +1,41 @@
+.animationbackground {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, hsl(308, 54%, 82%), hsl(308, 49%, 82%), hsl(308, 44%, 82%), hsl(254, 43%, 81%), hsl(254, 48%, 81%), hsl(254, 53%, 81%), hsl(254, 73%, 81%));
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    position: absolute;
+    z-index: -1;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.header {
+    background-color: hsl(254, 73%, 81%);
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    height: 53px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    max-width: 35px;
+    margin: 10px;
+}
+
+.menu-sup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
